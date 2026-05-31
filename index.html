@@ -1,0 +1,1719 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The Bike Shop Lahore &ndash; Expert motorcycle repair specialists for general repair, heavy bikes, 70cc to 2000cc, BMW, Suzuki, Honda, Yamaha and Kawasaki. WhatsApp booking available.">
+<meta name="keywords" content="motorcycle repair Lahore, bike repair Lahore, heavy bike service, 70cc repair, 125cc repair, 250cc repair, 400cc repair, 650cc repair, 800cc repair, 1000cc repair, 2000cc repair, BMW repair, Suzuki repair, Honda service, Yamaha service, Kawasaki repair, WhatsApp booking">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Bike Shop &ndash; Motorcycle Repair Specialists, Lahore">
+<meta property="og:description" content="Expert motorcycle repair in Lahore &mdash; 70cc to 2000cc, BMW, Suzuki, Honda, Yamaha, Kawasaki. Book via WhatsApp: 0301-438839.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?w=1200&q=85&auto=format&fit=crop">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Bike Shop &ndash; Motorcycle Repair, Lahore">
+<meta name="twitter:description" content="Expert repair for all bikes 70cc to 2000cc. BMW, Honda, Yamaha, Suzuki, Kawasaki. WhatsApp booking available.">
+<title>THE BIKE SHOP &ndash; Expert Repair Specialists, Lahore</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700;900&family=Orbitron:wght@400;600;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --void: #0a0a0a;
+  --forge: #111111;
+  --iron: #1c1c1c;
+  --steel: #2a2a2a;
+  --chrome: #8a9aaa;
+  --smoke: #444;
+  --ash: #666;
+  --gold: #f0a500;
+  --gold2: #e06010;
+  --marine: #2ea8e5;
+  --ember: #ff4500;
+  --white: #f5f3ef;
+  --off: #d8d4cc;
+  --glow: rgba(240,165,0,.18);
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  font-family:'Barlow Condensed', sans-serif;
+  background:var(--void);
+  color:var(--white);
+  overflow-x:hidden;
+}
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ CURSOR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+* { cursor:none !important; }
+#cursor {
+  position:fixed; top:0; left:0; z-index:99999;
+  width:12px; height:12px;
+  background:var(--gold);
+  border-radius:50%;
+  pointer-events:none;
+  transform:translate(-50%,-50%);
+  transition:transform .15s ease, background .2s;
+  mix-blend-mode:difference;
+}
+#cursor-ring {
+  position:fixed; top:0; left:0; z-index:99998;
+  width:36px; height:36px;
+  border:1.5px solid rgba(240,165,0,.5);
+  border-radius:50%;
+  pointer-events:none;
+  transform:translate(-50%,-50%);
+  transition:transform .35s ease, width .3s, height .3s;
+}
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ NOISE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+body::before {
+  content:'';
+  position:fixed; inset:0;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events:none; z-index:9997; opacity:.55;
+}
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ SCROLLBAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+::-webkit-scrollbar { width:4px; }
+::-webkit-scrollbar-track { background:var(--void); }
+::-webkit-scrollbar-thumb { background:var(--gold); }
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ NAVBAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+nav {
+  position:fixed; top:0; width:100%; z-index:1000;
+  display:flex; align-items:center; justify-content:space-between;
+  padding:20px 56px;
+  background:rgba(10,10,10,.88);
+  backdrop-filter:blur(18px);
+  border-bottom:1px solid rgba(240,165,0,.12);
+  animation:slideDown .8s ease both;
+}
+@keyframes slideDown { from{transform:translateY(-100%);opacity:0;} to{transform:translateY(0);opacity:1;} }
+
+.nav-logo {
+  font-family:'Bebas Neue', sans-serif;
+  font-size:1.65rem; letter-spacing:.2em;
+  color:var(--white);
+  display:flex; align-items:center; gap:10px;
+  text-decoration:none;
+}
+.nav-logo .logo-icon { display:inline-block; animation:spinGear 8s linear infinite; color:var(--gold); }
+@keyframes spinGear { to{transform:rotate(360deg);} }
+.nav-logo em { color:var(--gold); font-style:normal; }
+.nav-moto { color:var(--gold); display:inline-block; vertical-align:middle; }
+
+nav ul { list-style:none; display:flex; gap:36px; align-items:center; }
+nav ul a {
+  font-family:'Barlow Condensed',sans-serif;
+  font-weight:600; font-size:.88rem; letter-spacing:.12em;
+  text-decoration:none; color:var(--chrome);
+  text-transform:uppercase;
+  position:relative; padding-bottom:3px;
+  transition:color .25s;
+}
+nav ul a::after {
+  content:''; position:absolute; bottom:0; left:0;
+  width:0; height:1.5px; background:var(--gold);
+  transition:width .3s ease;
+}
+nav ul a:hover { color:var(--white); }
+nav ul a:hover::after { width:100%; }
+.nav-cta {
+  background:var(--gold) !important; color:var(--void) !important;
+  padding:9px 22px !important; font-weight:700 !important;
+  letter-spacing:.1em !important;
+  border-radius:1px; transition:background .25s !important;
+}
+.nav-cta::after { display:none !important; }
+.nav-cta:hover { background:var(--white) !important; }
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ HERO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.hero {
+  min-height:100vh;
+  position:relative; overflow:hidden;
+  display:flex; flex-direction:column;
+  justify-content:center; align-items:flex-start;
+  padding:130px 56px 90px;
+}
+
+.hero-img-bg {
+  position:absolute; inset:0;
+  background:
+    linear-gradient(to right, rgba(10,10,10,.96) 35%, rgba(10,10,10,.6) 70%, rgba(10,10,10,.2) 100%),
+    linear-gradient(to bottom, rgba(10,10,10,.4) 0%, transparent 30%, transparent 70%, rgba(10,10,10,.9) 100%);
+  z-index:1;
+}
+.hero-img-bg-photo {
+  position:absolute; inset:0;
+  background:url('https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?w=1600&q=85&auto=format&fit=crop') center/cover no-repeat;
+  animation:heroZoom 18s ease-in-out infinite alternate;
+  z-index:0;
+}
+@keyframes heroZoom { from{transform:scale(1);} to{transform:scale(1.08);} }
+
+/* Animated ember particles */
+.embers {
+  position:absolute; inset:0; z-index:2; pointer-events:none; overflow:hidden;
+}
+.ember {
+  position:absolute; bottom:-10px;
+  width:3px; height:3px; border-radius:50%;
+  background:var(--gold);
+  animation:riseEmber linear infinite;
+  opacity:0;
+}
+@keyframes riseEmber {
+  0%   { transform:translateY(0) translateX(0); opacity:0; }
+  10%  { opacity:1; }
+  50%  { transform:translateY(-40vh) translateX(20px); opacity:.7; }
+  80%  { opacity:.3; }
+  100% { transform:translateY(-80vh) translateX(-10px); opacity:0; }
+}
+
+/* Grid overlay */
+.hero-grid {
+  position:absolute; inset:0; z-index:2; pointer-events:none;
+  background-image:
+    linear-gradient(rgba(240,165,0,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(240,165,0,.03) 1px, transparent 1px);
+  background-size:60px 60px;
+}
+
+/* Speed streaks */
+.streaks { position:absolute; inset:0; z-index:2; pointer-events:none; overflow:hidden; }
+.streak {
+  position:absolute; left:0; height:1px;
+  background:linear-gradient(90deg, transparent, rgba(240,165,0,.3), transparent);
+  animation:streak linear infinite; opacity:0;
+}
+@keyframes streak {
+  0%   { transform:translateX(-100%); opacity:0; }
+  15%  { opacity:1; }
+  85%  { opacity:1; }
+  100% { transform:translateX(200%); opacity:0; }
+}
+
+.hero-content { position:relative; z-index:3; max-width:700px; }
+
+.hero-badge {
+  display:inline-flex; align-items:center; gap:8px;
+  background:rgba(240,165,0,.1);
+  border:1px solid rgba(240,165,0,.3);
+  padding:6px 18px;
+  font-family:'Orbitron', monospace;
+  font-size:.62rem; letter-spacing:.3em; color:var(--gold);
+  text-transform:uppercase; margin-bottom:24px;
+  opacity:0; animation:fadeUp .6s .3s ease both;
+}
+.badge-dot { width:6px; height:6px; border-radius:50%; background:var(--gold); animation:pulseDot 1.5s ease-in-out infinite; }
+@keyframes pulseDot { 0%,100%{opacity:1;} 50%{opacity:.3;} }
+
+.hero-title {
+  font-family:'Bebas Neue', sans-serif;
+  font-size:clamp(4.5rem, 12vw, 10rem);
+  line-height:.88; letter-spacing:.03em; color:var(--white);
+  opacity:0; animation:fadeUp .8s .5s ease both;
+}
+.hero-title .gold { color:var(--gold); }
+.hero-title .outline {
+  -webkit-text-stroke:2px rgba(255,255,255,.2);
+  color:transparent;
+}
+
+.hero-sub {
+  font-size:1.1rem; font-weight:300; letter-spacing:.06em;
+  color:var(--chrome); margin-top:24px; line-height:1.7;
+  max-width:500px;
+  opacity:0; animation:fadeUp .7s .75s ease both;
+}
+.hero-type {
+  margin-top:18px;
+  font-family:'Orbitron', monospace;
+  font-size:1rem;
+  letter-spacing:.18em;
+  color:var(--marine);
+  text-transform:uppercase;
+  opacity:0; animation:fadeUp .7s .85s ease both;
+}
+.typewriter-text { min-height:1.3rem; display:inline-block; }
+.hero-type .cursor {
+  display:inline-block; margin-left:6px;
+  animation:blink 1s step-start infinite;
+}
+@keyframes blink { 0%,100%{opacity:1;}50%{opacity:0;} }
+
+.whatsapp-float {
+  position:fixed; right:22px; bottom:24px; z-index:9999;
+  display:flex; align-items:center; gap:12px;
+  background:rgba(37,211,102,1); color:#fff;
+  padding:14px 18px; border-radius:999px;
+  font-family:'Orbitron', monospace; font-size:.9rem;
+  letter-spacing:.12em; text-decoration:none;
+  box-shadow:0 20px 40px rgba(0,0,0,.25);
+  transition:transform .25s, box-shadow .25s, opacity .25s;
+}
+.whatsapp-float:hover { transform:translateY(-3px); opacity:.98; box-shadow:0 24px 50px rgba(0,0,0,.3); }
+.whatsapp-float strong { font-family:'Bebas Neue', sans-serif; letter-spacing:.08em; font-weight:700; }
+
+.hero-divider {
+  display:flex; align-items:center; gap:16px;
+  margin:32px 0;
+  opacity:0; animation:fadeUp .7s .9s ease both;
+}
+.hero-divider-line { flex:1; max-width:60px; height:1px; background:var(--gold); }
+.hero-divider-text {
+  font-family:'Orbitron', monospace;
+  font-size:.6rem; letter-spacing:.25em; color:var(--gold); text-transform:uppercase;
+}
+
+.hero-stats {
+  display:flex; gap:40px; margin-bottom:36px;
+  opacity:0; animation:fadeUp .7s 1s ease both;
+}
+.h-stat { text-align:left; }
+.h-stat .n {
+  font-family:'Bebas Neue', sans-serif;
+  font-size:2.8rem; color:var(--gold); line-height:1;
+}
+.h-stat .l { font-size:.75rem; letter-spacing:.12em; color:var(--chrome); text-transform:uppercase; margin-top:2px; }
+
+.hero-cta-row {
+  display:flex; gap:16px; flex-wrap:wrap;
+  opacity:0; animation:fadeUp .7s 1.15s ease both;
+}
+.btn-primary {
+  background:var(--gold); color:var(--void);
+  padding:15px 40px; font-family:'Bebas Neue', sans-serif;
+  font-size:1.05rem; letter-spacing:.15em;
+  border:none; text-decoration:none; display:inline-block;
+  position:relative; overflow:hidden;
+  transition:transform .2s, box-shadow .25s;
+  clip-path:polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+}
+.btn-primary::after {
+  content:''; position:absolute; inset:0;
+  background:rgba(255,255,255,.25);
+  transform:translateX(-100%) skewX(-20deg);
+  transition:transform .45s ease;
+}
+.btn-primary:hover::after { transform:translateX(130%) skewX(-20deg); }
+.btn-primary:hover { transform:translateY(-3px); box-shadow:0 10px 30px rgba(240,165,0,.4); }
+
+.btn-ghost {
+  background:transparent; color:var(--white);
+  padding:14px 40px; border:1.5px solid rgba(255,255,255,.2);
+  font-family:'Bebas Neue', sans-serif;
+  font-size:1.05rem; letter-spacing:.15em;
+  text-decoration:none; display:inline-block;
+  transition:border-color .25s, background .25s, color .25s;
+  clip-path:polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+}
+.btn-ghost:hover { border-color:var(--gold); background:rgba(240,165,0,.08); color:var(--gold); }
+
+/* Scroll indicator */
+.scroll-hint {
+  position:absolute; bottom:36px; left:50%; transform:translateX(-50%);
+  z-index:3; display:flex; flex-direction:column; align-items:center; gap:8px;
+  font-family:'Orbitron', monospace; font-size:.58rem; letter-spacing:.2em; color:var(--ash);
+  animation:fadeIn 1s 2s both;
+}
+.scroll-arrow { width:1px; height:40px; background:linear-gradient(var(--ash), transparent); animation:scrollPulse 1.6s ease-in-out infinite; }
+@keyframes scrollPulse { 0%,100%{opacity:.3;transform:scaleY(1);} 50%{opacity:1;transform:scaleY(.7);} }
+@keyframes fadeIn { from{opacity:0;} to{opacity:1;} }
+
+@keyframes fadeUp { from{opacity:0;transform:translateY(32px);} to{opacity:1;transform:translateY(0);} }
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ TICKER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.ticker {
+  background:var(--gold); color:var(--void);
+  padding:13px 0; overflow:hidden;
+  font-family:'Orbitron', monospace; font-size:.68rem; letter-spacing:.22em;
+  white-space:nowrap; position:relative; z-index:10;
+}
+.ticker-inner { display:inline-block; animation:tickerMove 28s linear infinite; }
+@keyframes tickerMove { from{transform:translateX(0);} to{transform:translateX(-50%);} }
+.ticker-inner span { margin:0 36px; }
+.ticker-inner .sep { color:rgba(0,0,0,.3); }
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ SECTION SHARED â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+section { padding:110px 56px; }
+.section-label {
+  font-family:'Orbitron', monospace;
+  font-size:.6rem; letter-spacing:.35em; color:var(--gold);
+  text-transform:uppercase; margin-bottom:14px;
+  display:flex; align-items:center; gap:12px;
+}
+.section-label::before {
+  content:''; display:inline-block;
+  width:28px; height:1.5px; background:linear-gradient(90deg, var(--gold), var(--marine));
+}
+.section-title {
+  font-family:'Bebas Neue', sans-serif;
+  font-size:clamp(2.8rem, 5vw, 5rem);
+  line-height:.95; letter-spacing:.03em;
+  margin-bottom:56px;
+}
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ ABOUT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.about {
+  background:var(--forge);
+  display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center;
+}
+.about-img-wrap {
+  position:relative; aspect-ratio:4/3; overflow:hidden;
+  clip-path:polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 24px 100%, 0 calc(100% - 24px));
+}
+.about-img-wrap img {
+  width:100%; height:100%; object-fit:cover;
+  transition:transform .7s ease; filter:saturate(.85) contrast(1.05);
+}
+.about-img-wrap:hover img { transform:scale(1.05); }
+.about-img-overlay {
+  position:absolute; inset:0;
+  background:linear-gradient(135deg, rgba(240,165,0,.1) 0%, transparent 50%);
+  pointer-events:none;
+}
+.about-corner-tag {
+  position:absolute; top:20px; left:0;
+  background:var(--gold); color:var(--void);
+  font-family:'Bebas Neue', sans-serif;
+  font-size:.85rem; letter-spacing:.18em;
+  padding:7px 18px;
+}
+.about-text p {
+  font-size:1.05rem; font-weight:300; letter-spacing:.03em;
+  color:var(--chrome); line-height:1.85; max-width:480px;
+}
+.about-stats {
+  display:grid; grid-template-columns:1fr 1fr; gap:2px; margin-top:40px;
+}
+.stat-box {
+  background:var(--iron); padding:24px 20px;
+  border-left:2.5px solid transparent;
+  transition:border-color .3s, transform .3s;
+}
+.stat-box:hover { border-color:var(--gold); transform:translateX(4px); }
+.stat-box .num {
+  font-family:'Bebas Neue', sans-serif;
+  font-size:2.6rem; color:var(--gold); line-height:1;
+}
+.stat-box .lbl { font-size:.78rem; letter-spacing:.1em; color:var(--ash); text-transform:uppercase; margin-top:4px; }
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ REPAIR PROCESS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.process-section {
+  background:var(--void); text-align:center; padding:110px 56px;
+}
+.process-grid {
+  display:grid; grid-template-columns:repeat(4,1fr); gap:2px; margin-top:0;
+}
+.process-step {
+  background:var(--iron); padding:48px 28px;
+  position:relative; overflow:hidden;
+  transition:background .3s, transform .3s;
+}
+.process-step:hover { background:var(--steel); transform:translateY(-6px); }
+.process-num {
+  font-family:'Bebas Neue', sans-serif;
+  font-size:5rem; line-height:1; color:rgba(240,165,0,.08);
+  position:absolute; top:10px; right:16px;
+}
+.process-icon {
+  font-size:2.2rem; margin-bottom:18px; display:block;
+  transition:transform .3s;
+}
+.process-step:hover .process-icon { transform:scale(1.2) rotate(-5deg); }
+.process-step h4 {
+  font-family:'Bebas Neue', sans-serif;
+  font-size:1.4rem; letter-spacing:.08em; color:var(--white); margin-bottom:10px;
+}
+.process-step p { font-size:.9rem; font-weight:300; color:var(--ash); line-height:1.6; }
+.process-connector {
+  position:absolute; top:50%; right:-1px;
+  width:2px; height:40px;
+  background:linear-gradient(var(--gold), transparent);
+  transform:translateY(-50%);
+  z-index:2;
+}
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ SERVICES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.services { background:var(--forge); }
+.services-grid {
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr)); gap:2px;
+}
+.service-card {
+  background:var(--iron); padding:40px 32px;
+  position:relative; overflow:hidden;
+  transition:transform .35s ease, background .3s;
+  border-bottom:3px solid transparent;
+}
+.service-card::before {
+  content:''; position:absolute; top:0; left:0;
+  width:100%; height:3px;
+  background:linear-gradient(90deg, var(--gold), var(--gold2));
+  transform:scaleX(0); transform-origin:left;
+  transition:transform .4s ease;
+}
+.service-card:hover { transform:translateY(-8px); background:var(--steel); }
+.service-card:hover::before { transform:scaleX(1); }
+.service-card .s-icon {
+  font-size:2.5rem; margin-bottom:22px; display:block;
+}
+.service-card h3 {
+  font-family:'Bebas Neue', sans-serif;
+  font-size:1.6rem; letter-spacing:.06em; color:var(--white); margin-bottom:12px;
+}
+.service-card p { font-size:.93rem; font-weight:300; color:var(--ash); line-height:1.65; }
+.service-tag {
+  display:inline-block; margin-top:20px;
+  background:rgba(46,168,229,.08); color:var(--marine);
+  font-family:'Orbitron', monospace; font-size:.58rem;
+  letter-spacing:.18em; padding:5px 12px;
+  border:1px solid rgba(46,168,229,.35);
+}
+.service-bg-num {
+  position:absolute; bottom:-20px; right:-10px;
+  font-family:'Bebas Neue', sans-serif; font-size:8rem;
+  color:rgba(255,255,255,.03); pointer-events:none; line-height:1;
+}
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ BRANDS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.brands-section {
+  background:var(--void); padding:80px 56px;
+}
+.brands-scroll-wrap { overflow:hidden; position:relative; }
+.brands-track {
+  display:flex; gap:0; animation:brandScroll 20s linear infinite;
+}
+@keyframes brandScroll { from{transform:translateX(0);} to{transform:translateX(-50%);} }
+.brand-block {
+  flex-shrink:0; padding:28px 56px;
+  border-right:1px solid rgba(255,255,255,.05);
+  font-family:'Bebas Neue', sans-serif;
+  font-size:1.8rem; letter-spacing:.18em;
+  color:var(--ash);
+  transition:color .3s;
+  white-space:nowrap;
+}
+.brand-block:hover { color:var(--gold); }
+.brands-fade-l, .brands-fade-r {
+  position:absolute; top:0; bottom:0; width:120px; z-index:2; pointer-events:none;
+}
+.brands-fade-l { left:0; background:linear-gradient(to right, var(--void), transparent); }
+.brands-fade-r { right:0; background:linear-gradient(to left, var(--void), transparent); }
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ CC RANGE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.cc-section { background:var(--forge); }
+.cc-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:3px; }
+.cc-card.cc-blue .cc-num { color:var(--marine); text-shadow:0 0 60px rgba(46,168,229,.25); }
+.cc-card.cc-blue::after { background:linear-gradient(90deg, var(--marine), #1a75a8); }
+.cc-card.cc-blue .cc-suffix { color:var(--marine); }
+.cc-card {
+  background:var(--void); padding:56px 40px;
+  position:relative; overflow:hidden;
+  transition:background .3s;
+}
+.cc-card::after {
+  content:''; position:absolute; bottom:0; left:0;
+  width:0; height:3px;
+  background:linear-gradient(90deg, var(--gold), var(--gold2));
+  transition:width .45s ease;
+}
+.cc-card:hover { background:var(--iron); }
+.cc-card:hover::after { width:100%; }
+.cc-num {
+  font-family:'Bebas Neue', sans-serif;
+  font-size:5.5rem; line-height:1; color:var(--gold);
+  text-shadow:0 0 60px rgba(240,165,0,.2);
+}
+.cc-suffix {
+  font-family:'Orbitron', monospace;
+  font-size:.65rem; letter-spacing:.25em; color:var(--chrome);
+  text-transform:uppercase; margin-top:6px;
+}
+.cc-card p { font-size:.92rem; font-weight:300; color:var(--ash); line-height:1.65; margin-top:18px; }
+.cc-ghost-num {
+  position:absolute; right:-20px; bottom:-30px;
+  font-family:'Bebas Neue', sans-serif;
+  font-size:14rem; line-height:1;
+  color:rgba(255,255,255,.025); pointer-events:none;
+}
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ BIKE GALLERY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.gallery-section { background:var(--void); padding:110px 56px; }
+.gallery-intro { max-width:600px; margin-bottom:60px; }
+.gallery-grid {
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-template-rows:280px 280px;
+  gap:4px;
+}
+.gallery-item {
+  position:relative; overflow:hidden;
+}
+.gallery-item:first-child { grid-column:1/3; }
+.gallery-item:nth-child(4) { grid-column:2/4; }
+.gallery-item img {
+  width:100%; height:100%; object-fit:cover;
+  transition:transform .7s ease, filter .5s;
+  filter:saturate(.7) contrast(1.1) brightness(.85);
+}
+.gallery-item:hover img { transform:scale(1.07); filter:saturate(1) contrast(1.05) brightness(.95); }
+.gallery-overlay {
+  position:absolute; inset:0;
+  background:linear-gradient(to top, rgba(10,10,10,.8) 0%, transparent 50%);
+  pointer-events:none;
+}
+.gallery-label {
+  position:absolute; bottom:18px; left:20px;
+  font-family:'Bebas Neue', sans-serif; font-size:1.2rem;
+  letter-spacing:.12em; color:var(--white);
+}
+.gallery-brand-tag {
+  position:absolute; top:16px; right:16px;
+  background:rgba(240,165,0,.9); color:var(--void);
+  font-family:'Orbitron', monospace;
+  font-size:.55rem; letter-spacing:.15em; padding:5px 12px;
+}
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ WHY US â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.why-section {
+  background:var(--forge);
+  display:grid; grid-template-columns:1fr 1fr; gap:0;
+  padding:0;
+}
+.why-img {
+  position:relative; min-height:600px; overflow:hidden;
+}
+.why-img img {
+  width:100%; height:100%; object-fit:cover;
+  filter:saturate(.7) brightness(.7) contrast(1.1);
+  transition:transform .8s ease;
+}
+.why-img:hover img { transform:scale(1.04); }
+.why-img-overlay {
+  position:absolute; inset:0;
+  background:linear-gradient(to right, transparent 60%, var(--forge) 100%);
+  pointer-events:none;
+}
+.why-content {
+  padding:100px 64px 100px 56px;
+  display:flex; flex-direction:column; justify-content:center;
+}
+.why-list { list-style:none; margin-top:0; display:flex; flex-direction:column; gap:0; }
+.why-item {
+  display:flex; align-items:flex-start; gap:20px;
+  padding:24px 0; border-bottom:1px solid rgba(255,255,255,.06);
+  transition:padding .3s;
+}
+.why-item:hover { padding-left:8px; }
+.why-icon {
+  width:44px; height:44px; flex-shrink:0;
+  background:rgba(240,165,0,.1);
+  border:1px solid rgba(240,165,0,.2);
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.3rem;
+  transition:background .3s;
+}
+.why-item:hover .why-icon { background:rgba(240,165,0,.2); }
+.why-item h4 {
+  font-family:'Bebas Neue', sans-serif;
+  font-size:1.25rem; letter-spacing:.08em; color:var(--white); margin-bottom:5px;
+}
+.why-item p { font-size:.9rem; font-weight:300; color:var(--ash); line-height:1.55; }
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ TESTIMONIALS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.testimonials { background:var(--void); padding:110px 56px; }
+.reviews-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:3px; }
+.review-card {
+  background:var(--iron); padding:36px 28px;
+  position:relative; overflow:hidden;
+  transition:background .3s, transform .3s;
+}
+.review-card:hover { background:var(--steel); transform:translateY(-6px); }
+.review-stars { color:var(--gold); font-size:1rem; letter-spacing:3px; margin-bottom:16px; }
+.review-text {
+  font-size:.95rem; font-weight:300; color:var(--chrome); line-height:1.7;
+  font-style:italic; margin-bottom:24px;
+}
+.review-author { font-family:'Bebas Neue', sans-serif; font-size:1.1rem; letter-spacing:.1em; color:var(--white); }
+.review-bike { font-family:'Orbitron', monospace; font-size:.58rem; letter-spacing:.15em; color:var(--gold); margin-top:4px; }
+.review-quote {
+  position:absolute; top:20px; right:24px;
+  font-family:'Bebas Neue', sans-serif; font-size:5rem; line-height:1;
+  color:rgba(255,255,255,.04); pointer-events:none;
+}
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ CONTACT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.contact {
+  background:var(--forge);
+  display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:start;
+}
+.contact-info .section-title { margin-bottom:40px; }
+.contact-item {
+  display:flex; align-items:flex-start; gap:18px;
+  padding:24px 0; border-bottom:1px solid rgba(255,255,255,.06);
+}
+.c-icon {
+  width:44px; height:44px; flex-shrink:0;
+  background:rgba(240,165,0,.08);
+  border:1px solid rgba(240,165,0,.2);
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.2rem;
+  transition:background .3s;
+}
+.contact-item:hover .c-icon { background:rgba(240,165,0,.18); }
+.c-lbl { font-family:'Orbitron', monospace; font-size:.55rem; letter-spacing:.2em; color:var(--gold); margin-bottom:5px; }
+.c-val { font-size:1rem; letter-spacing:.04em; color:var(--white); }
+.c-val a { color:var(--white); text-decoration:none; }
+.c-val a:hover { color:var(--gold); }
+
+.contact-form { padding:48px; background:var(--iron); position:relative; overflow:hidden; }
+.contact-form::before {
+  content:''; position:absolute; top:0; left:0; right:0; height:3px;
+  background:linear-gradient(90deg, var(--gold), var(--marine), var(--ember));
+}
+.form-header { margin-bottom:28px; }
+.form-header h3 {
+  font-family:'Bebas Neue', sans-serif;
+  font-size:2.2rem; letter-spacing:.1em; color:var(--white); margin-bottom:6px;
+}
+.form-sub { font-size:.88rem; font-weight:300; color:var(--ash); line-height:1.5; }
+.cc-chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+.cc-chip {
+  background:var(--steel); color:var(--chrome);
+  border:1px solid rgba(255,255,255,.1);
+  font-family:'Orbitron', monospace; font-size:.58rem; letter-spacing:.14em;
+  padding:7px 14px; transition:background .2s, border-color .2s, color .2s;
+}
+.cc-chip:hover, .cc-chip.active { background:rgba(240,165,0,.15); border-color:var(--gold); color:var(--gold); }
+.cc-chip.b:hover, .cc-chip.b.active { background:rgba(46,168,229,.15); border-color:var(--marine); color:var(--marine); }
+.cc-chip.r:hover, .cc-chip.r.active { background:rgba(255,69,0,.15); border-color:var(--ember); color:var(--ember); }
+.form-group { margin-bottom:20px; }
+.form-group label {
+  display:block; font-family:'Orbitron', monospace;
+  font-size:.55rem; letter-spacing:.2em; color:var(--gold); margin-bottom:8px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width:100%; background:var(--steel);
+  border:1px solid rgba(255,255,255,.08);
+  border-bottom:1px solid rgba(240,165,0,.25);
+  color:var(--white); padding:12px 16px;
+  font-family:'Barlow Condensed', sans-serif;
+  font-size:.95rem; letter-spacing:.04em;
+  transition:border-color .25s, background .25s;
+  outline:none;
+  appearance:none;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder { color:var(--ash); }
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-bottom-color:var(--gold);
+  background:rgba(240,165,0,.04);
+}
+.form-group select option { background:var(--iron); }
+.form-group textarea { resize:vertical; min-height:90px; }
+.btn-submit {
+  width:100%; background:var(--gold); color:var(--void);
+  padding:16px; font-family:'Bebas Neue', sans-serif;
+  font-size:1.1rem; letter-spacing:.18em;
+  border:none; position:relative; overflow:hidden;
+  transition:background .25s, transform .2s, box-shadow .25s;
+  clip-path:polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+}
+.btn-submit::after {
+  content:''; position:absolute; inset:0;
+  background:rgba(255,255,255,.2);
+  transform:translateX(-100%) skewX(-20deg);
+  transition:transform .45s;
+}
+.btn-submit:hover::after { transform:translateX(130%) skewX(-20deg); }
+.btn-submit:hover { transform:translateY(-3px); box-shadow:0 10px 30px rgba(240,165,0,.35); }
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ FOOTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+footer {
+  background:var(--void); padding:56px;
+  border-top:1px solid rgba(240,165,0,.12);
+  display:grid; grid-template-columns:1fr auto 1fr; gap:40px; align-items:center;
+}
+.footer-logo {
+  font-family:'Bebas Neue', sans-serif;
+  font-size:1.8rem; letter-spacing:.2em; color:var(--white);
+}
+.footer-logo em { color:var(--gold); font-style:normal; }
+.footer-tagline { font-size:.82rem; letter-spacing:.06em; color:var(--ash); margin-top:6px; }
+.footer-copy { text-align:center; font-size:.8rem; color:var(--ash); letter-spacing:.04em; line-height:1.7; }
+.footer-links { display:flex; flex-direction:column; align-items:flex-end; gap:8px; }
+.footer-links a {
+  font-family:'Barlow Condensed', sans-serif; font-weight:600;
+  font-size:.85rem; letter-spacing:.1em; color:var(--ash);
+  text-decoration:none; text-transform:uppercase;
+  transition:color .25s;
+}
+.footer-links a:hover { color:var(--gold); }
+.footer-bottom {
+  grid-column:1/-1; border-top:1px solid rgba(255,255,255,.05);
+  padding-top:28px; text-align:center;
+  font-family:'Orbitron', monospace; font-size:.58rem; letter-spacing:.2em; color:rgba(255,255,255,.2);
+}
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ HAMBURGER + MOBILE NAV â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.nav-hamburger {
+  display:none; flex-direction:column; gap:5px;
+  background:none; border:none; padding:4px; z-index:1010;
+}
+.nav-hamburger span {
+  display:block; width:26px; height:1.5px; background:var(--gold);
+  transition:transform .35s ease, opacity .3s, background .25s;
+}
+.nav-hamburger.active span:nth-child(1) { transform:rotate(45deg) translate(4.5px,4.5px); }
+.nav-hamburger.active span:nth-child(2) { opacity:0; transform:translateX(8px); }
+.nav-hamburger.active span:nth-child(3) { transform:rotate(-45deg) translate(4.5px,-4.5px); }
+
+.mobile-nav {
+  display:none; position:fixed; inset:0; z-index:998;
+  background:rgba(10,10,10,.98); backdrop-filter:blur(24px);
+  flex-direction:column; align-items:center; justify-content:center;
+  padding:80px 32px 40px;
+}
+.mobile-nav.open { display:flex; }
+.mobile-nav a {
+  font-family:'Bebas Neue',sans-serif; font-size:2.6rem; letter-spacing:.15em;
+  color:var(--chrome); text-decoration:none;
+  padding:18px 0; width:100%; text-align:center;
+  border-bottom:1px solid rgba(255,255,255,.05);
+  transition:color .2s, padding-left .25s;
+}
+.mobile-nav a:hover { color:var(--gold); padding-left:16px; }
+.mobile-nav .m-cta {
+  margin-top:28px; border-bottom:none !important;
+  background:var(--gold); color:var(--void) !important;
+  padding:16px 40px !important; font-size:1.4rem !important;
+  clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px));
+}
+.mobile-nav .m-cta:hover { background:var(--white) !important; padding-left:40px !important; }
+
+/* CC ember-red variant for 2000cc */
+.cc-card.cc-red .cc-num { color:var(--ember); text-shadow:0 0 60px rgba(255,69,0,.25); }
+.cc-card.cc-red::after { background:linear-gradient(90deg, var(--ember), #b03000); }
+.cc-card.cc-red .cc-suffix { color:var(--ember); }
+
+/* Back to top */
+.back-top {
+  position:fixed; left:22px; bottom:24px; z-index:9998;
+  width:44px; height:44px;
+  background:rgba(240,165,0,.1); border:1px solid rgba(240,165,0,.25);
+  display:flex; align-items:center; justify-content:center;
+  opacity:0; transform:translateY(16px); pointer-events:none;
+  transition:opacity .3s, transform .3s, background .25s;
+}
+.back-top.visible { opacity:1; transform:translateY(0); pointer-events:auto; }
+.back-top:hover { background:var(--gold); }
+.back-top svg { color:var(--gold); transition:color .25s; }
+.back-top:hover svg { color:var(--void); }
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ REVEAL ANIMATIONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.reveal {
+  opacity:0; transform:translateY(40px);
+  transition:opacity .8s ease, transform .8s ease;
+}
+.reveal.left { transform:translateX(-40px); }
+.reveal.right { transform:translateX(40px); }
+.reveal.scale { transform:scale(.96); }
+.reveal.visible { opacity:1; transform:none; }
+
+/* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ MOBILE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+@media (max-width:900px) {
+  nav { padding:16px 20px; }
+  nav ul { display:none; }
+  section, .process-section, .gallery-section, .testimonials, .brands-section { padding:70px 20px; }
+  .hero { padding:110px 20px 70px; }
+  .about, .contact, .why-section { grid-template-columns:1fr; }
+  .process-grid, .reviews-grid { grid-template-columns:1fr; }
+  .cc-grid { grid-template-columns:repeat(2,1fr); }
+  .nav-hamburger { display:flex; }
+  .gallery-grid { grid-template-columns:1fr 1fr; grid-template-rows:auto; }
+  .gallery-item:first-child, .gallery-item:nth-child(4) { grid-column:1/-1; }
+  .why-img { min-height:280px; }
+  .why-img-overlay { background:linear-gradient(to bottom, transparent 60%, var(--forge) 100%); }
+  footer { grid-template-columns:1fr; text-align:center; padding:40px 20px; }
+  .footer-links { align-items:center; }
+  .hero-title { font-size:clamp(3.5rem,18vw,7rem); }
+  .hero-stats { gap:24px; flex-wrap:wrap; }
+  .whatsapp-float { right:16px; bottom:16px; padding:12px 16px; font-size:.85rem; }
+  .back-top { left:16px; bottom:16px; }
+}
+@media (max-width:540px) {
+  .cc-grid { grid-template-columns:1fr !important; }
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "The Bike Shop",
+  "image": "https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?w=1200&q=85&auto=format&fit=crop",
+  "telephone": "+92301438839",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Shop No. 4, Main Awan Town",
+    "addressLocality": "Lahore",
+    "addressRegion": "Punjab",
+    "addressCountry": "PK"
+  },
+  "priceRange": "â‚¹â‚¹",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "17:00" }
+  ],
+  "sameAs": ["https://wa.me/92301438839"],
+  "description": "General motorcycle repair and heavy bike service in Lahore for 70cc to 2000cc bikes, including BMW, Suzuki, Honda, Yamaha and Kawasaki. WhatsApp booking available."
+}
+</script>
+</head>
+<body>
+
+<!-- CURSOR -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a class="nav-logo" href="#home">
+    <span class="logo-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="3"/>
+        <path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/>
+      </svg>
+    </span>
+    <svg class="nav-moto" xmlns="http://www.w3.org/2000/svg" width="42" height="22" viewBox="0 0 42 22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="7" cy="16" r="5"/>
+      <circle cx="35" cy="16" r="5"/>
+      <path d="M7 16 L12 6 L20 6 L26 10 L35 16"/>
+      <path d="M20 6 L22 2 L29 4 L28 7"/>
+      <path d="M12 6 L15 3"/>
+      <line x1="23" y1="9" x2="26" y2="9"/>
+    </svg>
+    THE <em>&nbsp;BIKE&nbsp;</em> SHOP
+  </a>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#brands">Brands</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="tel:0301438839" class="nav-cta">📞 0301-438839</a></li>
+  </ul>
+  <button class="nav-hamburger" id="hamburger" aria-label="Open Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE NAV -->
+<nav class="mobile-nav" id="mobileNav">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#brands">Brands</a>
+  <a href="#contact">Contact</a>
+  <a href="tel:0301438839" class="m-cta">📞 0301-438839</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-img-bg-photo"></div>
+  <div class="hero-img-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="streaks" id="streaks"></div>
+  <div class="embers" id="embers"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Lahore's Premier Motorcycle Repair Specialists
+    </div>
+
+    <h1 class="hero-title">
+      MASTER<br>
+      <span class="gold">BIKE</span><br>
+      <span class="outline">REPAIR</span>
+    </h1>
+
+    <p class="hero-sub">
+      Every brand. Every model. Every engine class — from 125cc commuters to 2000cc superbikes and heavy tourers. We don't just fix bikes. We revive them with precision.
+    </p>
+    <p class="hero-type">
+      <span class="typewriter-text"></span><span class="cursor">|</span>
+    </p>
+
+    <div class="hero-divider">
+      <div class="hero-divider-line"></div>
+      <div class="hero-divider-text">Established &middot; Awan Town &middot; Multan Road &middot; Lahore</div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="h-stat"><div class="n">500+</div><div class="l">Bikes Repaired</div></div>
+      <div class="h-stat"><div class="n">10+</div><div class="l">Years Experience</div></div>
+      <div class="h-stat"><div class="n">ALL</div><div class="l">Brands Covered</div></div>
+    </div>
+
+    <div class="hero-cta-row">
+      <a href="#services" class="btn-primary">Explore Services</a>
+      <a href="https://wa.me/92301438839?text=Assalamualaikum%20The%20Bike%20Shop!%20I%20need%20a%20repair%20quote%20for%20my%20bike." class="btn-primary" target="_blank" rel="noopener noreferrer">WhatsApp Repair</a>
+      <a href="#contact" class="btn-ghost">Book a Repair</a>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    SCROLL
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-inner">
+    <span>&#9881; BMW REPAIR</span><span class="sep"> &#9670; </span>
+    <span>SUZUKI SERVICE</span><span class="sep"> &#9670; </span>
+    <span>HONDA SPECIALIST</span><span class="sep"> &#9670; </span>
+    <span>YAMAHA EXPERT</span><span class="sep"> &#9670; </span>
+    <span>KAWASAKI REPAIR</span><span class="sep"> &#9670; </span>
+    <span>70CC TO 2000CC</span><span class="sep"> &#9670; </span>
+    <span>125CC &middot; 250CC &middot; 400CC &middot; 650CC &middot; 800CC</span><span class="sep"> &#9670; </span>
+    <span>ALL BRANDS &middot; ALL MODELS</span><span class="sep"> &#9670; </span>
+    <span>AWAN TOWN &middot; MULTAN ROAD &middot; LAHORE</span><span class="sep"> &#9670; </span>
+    <span>0301-438839</span><span class="sep"> &#9670; </span>
+    <span>&#9881; BMW REPAIR</span><span class="sep"> &#9670; </span>
+    <span>SUZUKI SERVICE</span><span class="sep"> &#9670; </span>
+    <span>HONDA SPECIALIST</span><span class="sep"> &#9670; </span>
+    <span>YAMAHA EXPERT</span><span class="sep"> &#9670; </span>
+    <span>KAWASAKI REPAIR</span><span class="sep"> &#9670; </span>
+    <span>70CC TO 2000CC</span><span class="sep"> &#9670; </span>
+    <span>125CC &middot; 250CC &middot; 400CC &middot; 650CC &middot; 800CC</span><span class="sep"> &#9670; </span>
+    <span>ALL BRANDS &middot; ALL MODELS</span><span class="sep"> &#9670; </span>
+    <span>AWAN TOWN &middot; MULTAN ROAD &middot; LAHORE</span><span class="sep"> &#9670; </span>
+    <span>0301-438839</span><span class="sep"> &#9670; </span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-img-wrap reveal left">
+    <img loading="lazy" src="https://images.unsplash.com/photo-1596078842082-e4bb4ef7d1d5?w=800&q=85&auto=format&fit=crop" alt="Mechanic repairing a motorcycle">
+    <div class="about-img-overlay"></div>
+    <div class="about-corner-tag">EST. LAHORE</div>
+  </div>
+  <div class="about-text reveal right">
+    <div class="section-label">Who We Are</div>
+    <h2 class="section-title">LAHORE'S<br>TRUSTED<br>REPAIR HOUSE</h2>
+    <p>
+      Located at Shop No. 4, Main Awan Town, Multan Road, Lahore — The Bike Shop is a repair-only specialist workshop built for general repair and heavy bike owners. Our certified mechanics have spent over a decade mastering every brand and engine class from everyday 70cc commuters to premium 2000cc tourers. Unlike general competitors, we focus only on repairs, honest quotes, and long-lasting performance.
+    </p>
+    <div class="about-stats">
+      <div class="stat-box reveal">
+        <div class="num">500+</div>
+        <div class="lbl">Bikes Repaired</div>
+      </div>
+      <div class="stat-box reveal">
+        <div class="num">10+</div>
+        <div class="lbl">Years Experience</div>
+      </div>
+      <div class="stat-box reveal">
+        <div class="num">ALL</div>
+        <div class="lbl">Brands Serviced</div>
+      </div>
+      <div class="stat-box reveal">
+        <div class=”num”>70–2000</div>
+        <div class="lbl">CC Range Covered</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REPAIR PROCESS -->
+<div class="process-section">
+  <div class="reveal">
+    <div class="section-label">How It Works</div>
+    <h2 class="section-title" style="color:var(--white);">THE REPAIR<br>PROCESS</h2>
+  </div>
+  <div class="process-grid">
+    <div class="process-step reveal">
+      <div class="process-num">01</div>
+      <span class="process-icon">🔍</span>
+      <h4>Diagnosis</h4>
+      <p>Full mechanical and electrical inspection to identify root issues accurately before any work begins.</p>
+      <div class="process-connector"></div>
+    </div>
+    <div class="process-step reveal">
+      <div class="process-num">02</div>
+      <span class="process-icon">📋</span>
+      <h4>Quote & Plan</h4>
+      <p>Transparent cost estimate with no hidden fees. You approve before a single tool is touched.</p>
+      <div class="process-connector"></div>
+    </div>
+    <div class="process-step reveal">
+      <div class="process-num">03</div>
+      <span class="process-icon">🔧</span>
+      <h4>Expert Repair</h4>
+      <p>Experienced mechanics work on your bike using quality parts and precision techniques.</p>
+      <div class="process-connector"></div>
+    </div>
+    <div class="process-step reveal">
+      <div class="process-num">04</div>
+      <span class="process-icon">✅</span>
+      <h4>Test & Deliver</h4>
+      <p>Road test and final quality check before your bike is handed back — road-ready and reliable.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="reveal">
+    <div class="section-label">What We Do</div>
+    <h2 class="section-title">REPAIR<br>SERVICES</h2>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <span class="s-icon">🔧</span>
+      <h3>General Repair</h3>
+      <p>Full mechanical inspection and repair for any motorcycle brand or model. Engine overhauls, brake systems, transmission, and complete electrical diagnostics.</p>
+      <div class="service-tag">ALL MODELS</div>
+      <div class="service-bg-num">01</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="s-icon">🏍</span>
+      <h3>BMW Specialist</h3>
+      <p>Expert-level servicing for BMW motorcycles. Precision diagnostics, genuine OEM-grade parts, suspension calibration, and performance tuning for GS, R, and S Series.</p>
+      <div class="service-tag">BMW SERIES</div>
+      <div class="service-bg-num">02</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="s-icon">🏍</span>
+      <h3>Heavy Bike Repair</h3>
+      <p>Specialised care for large-displacement machines and premium tourers. Suspension setup, high-load engine service, dyno-style tuning, and heavy bike diagnostics that general shops can't match.</p>
+      <div class="service-tag">HEAVY BIKES</div>
+      <div class="service-bg-num">03</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="s-icon">🛵</span>
+      <h3>70cc Specialist</h3>
+      <p>Pakistan's most-ridden engine class. Honda CD70, Yamaha YB70, and all local 70cc variants — complete service packages and performance rebuilds.</p>
+      <div class="service-tag">70CC CLASS</div>
+      <div class="service-bg-num">04</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="s-icon">🏍</span>
+      <h3>125cc to 2000cc Coverage</h3>
+      <p>From 125cc commuters and semi-sports bikes to heavyweight tourers, we cover the full mid-range spectrum with specialist repair and tuning.</p>
+      <div class="service-tag">125CC–2000CC</div>
+      <div class="service-bg-num">05</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="s-icon">🔩</span>
+      <h3>Acre 70cc Service</h3>
+      <p>Specialised repair and tuning for Acre 70cc bikes. Genuine spare parts, performance upgrades, and comprehensive routine maintenance packages.</p>
+      <div class="service-tag">ACRE 70CC</div>
+      <div class="service-bg-num">06</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="s-icon">💥</span>
+      <h3>2000cc Powerhouse</h3>
+      <p>High-performance repair for large-displacement superbikes and tourers. Suspension setup, dyno-style tuning, tire fitting, and advanced ECU diagnostics.</p>
+      <div class="service-tag">2000CC+</div>
+      <div class="service-bg-num">07</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="s-icon">🛞</span>
+      <h3>Honda & Yamaha</h3>
+      <p>Full service support for Honda CG125, CB series and Yamaha YBR, R15, and FZ series. Genuine parts and expert tuning from specialists who know these bikes inside out.</p>
+      <div class="service-tag">HONDA · YAMAHA</div>
+      <div class="service-bg-num">08</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="s-icon">⚙</span>
+      <h3>Engine Rebuilds</h3>
+      <p>Complete bottom-end and top-end engine rebuilds for any brand. Cylinder boring, piston replacement, valve grinding, and crankshaft reconditioning.</p>
+      <div class="service-tag">ENGINE WORK</div>
+      <div class="service-bg-num">09</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="s-icon">&#9881;</span>
+      <h3>Electrical & ECU</h3>
+      <p>Modern motorcycle electrical diagnostics, wiring repairs, lighting systems, starter motor rebuilds, and ECU fault clearing for fuel-injected bikes.</p>
+      <div class="service-tag">ELECTRICAL</div>
+      <div class="service-bg-num">10</div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery-section" id="gallery">
+  <div class="gallery-intro reveal">
+    <div class="section-label">Bikes We Repair</div>
+    <h2 class="section-title">ALL BRANDS.<br>ALL MODELS.</h2>
+    <p style="font-size:1rem;font-weight:300;color:var(--ash);line-height:1.75;max-width:480px;margin-bottom:0">
+      From the most common 125cc on Pakistan's roads to precision European superbikes and heavy tourers — every machine deserves expert hands.
+    </p>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item reveal">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=1000&q=85&auto=format&fit=crop" alt="BMW Motorcycle">
+      <div class="gallery-overlay"></div>
+      <div class="gallery-brand-tag">BMW</div>
+      <div class="gallery-label">BMW GS Series</div>
+    </div>
+    <div class="gallery-item reveal">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?w=600&q=85&auto=format&fit=crop" alt="Sport Motorcycle">
+      <div class="gallery-overlay"></div>
+      <div class="gallery-brand-tag">KAWASAKI</div>
+      <div class="gallery-label">Kawasaki Ninja</div>
+    </div>
+    <div class="gallery-item reveal">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1622185135505-2d795003994a?w=600&q=85&auto=format&fit=crop" alt="Suzuki Motorcycle">
+      <div class="gallery-overlay"></div>
+      <div class="gallery-brand-tag">SUZUKI</div>
+      <div class="gallery-label">Suzuki GSX-R</div>
+    </div>
+    <div class="gallery-item reveal">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=85&auto=format&fit=crop" alt="Mechanic Workshop">
+      <div class="gallery-overlay"></div>
+      <div class="gallery-brand-tag">WORKSHOP</div>
+      <div class="gallery-label">Expert Mechanics</div>
+    </div>
+    <div class="gallery-item reveal">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=600&q=85&auto=format&fit=crop" alt="Honda Motorcycle">
+      <div class="gallery-overlay"></div>
+      <div class="gallery-brand-tag">HONDA</div>
+      <div class="gallery-label">Honda Series</div>
+    </div>
+  </div>
+</section>
+
+<!-- BRANDS -->
+<div class="brands-section" id="brands">
+  <div class="reveal" style="text-align:center;margin-bottom:48px;">
+    <div class="section-label" style="justify-content:center;">Brands We Service</div>
+    <h2 class="section-title" style="margin-bottom:0;">ALL BRANDS<br>WELCOME</h2>
+  </div>
+  <div class="brands-scroll-wrap reveal">
+    <div class="brands-fade-l"></div>
+    <div class="brands-track">
+      <div class="brand-block">BMW</div>
+      <div class="brand-block">SUZUKI</div>
+      <div class="brand-block">HONDA</div>
+      <div class="brand-block">YAMAHA</div>
+      <div class="brand-block">KAWASAKI</div>
+      <div class="brand-block">UNITED</div>
+      <div class="brand-block">ACRE</div>
+      <div class="brand-block">ROAD PRINCE</div>
+      <div class="brand-block">SUPER POWER</div>
+      <div class="brand-block">RAVI</div>
+      <div class="brand-block">EAGLE</div>
+      <div class="brand-block">ZXMCO</div>
+      <!-- duplicate -->
+      <div class="brand-block">BMW</div>
+      <div class="brand-block">SUZUKI</div>
+      <div class="brand-block">HONDA</div>
+      <div class="brand-block">YAMAHA</div>
+      <div class="brand-block">KAWASAKI</div>
+      <div class="brand-block">UNITED</div>
+      <div class="brand-block">ACRE</div>
+      <div class="brand-block">ROAD PRINCE</div>
+      <div class="brand-block">SUPER POWER</div>
+      <div class="brand-block">RAVI</div>
+      <div class="brand-block">EAGLE</div>
+      <div class="brand-block">ZXMCO</div>
+    </div>
+    <div class="brands-fade-r"></div>
+  </div>
+
+  <!-- CC Range -->
+  <div class="cc-section" style="background:transparent;padding:80px 0 0;">
+    <div class="reveal" style="text-align:center;margin-bottom:4px;">
+      <div class="section-label" style="justify-content:center;">Engine Classes</div>
+      <h2 class="section-title" style="margin-bottom:4px;">CC RANGE WE COVER</h2>
+    </div>
+    <div class="cc-grid">
+      <div class="cc-card reveal">
+        <div class="cc-num">70</div>
+        <div class="cc-suffix">Cubic Centimetres</div>
+        <p>Pakistan's most beloved engine class. Honda CD70, Yamaha YB70, Acre 70 — we know every bolt, bearing, and carburetor jet.</p>
+        <div class="cc-ghost-num">70</div>
+      </div>
+      <div class="cc-card reveal">
+        <div class="cc-num">125</div>
+        <div class="cc-suffix">Cubic Centimetres</div>
+        <p>Mid-range commuter and semi-sports bikes. Honda CG125, Suzuki GS125 — full service, performance tuning, and rebuilds.</p>
+        <div class="cc-ghost-num">125</div>
+      </div>
+      <div class="cc-card cc-blue reveal">
+        <div class="cc-num">250</div>
+        <div class="cc-suffix">to 800cc &middot; Sports Range</div>
+        <p>Yamaha R15, Honda CBR300, Kawasaki Z400, Ninja 400, Suzuki Bandit 650, Kawasaki Ninja 650 — mid-range sports and street machines fully covered.</p>
+        <div class="cc-ghost-num">650</div>
+      </div>
+      <div class="cc-card cc-red reveal">
+        <div class="cc-num">2000</div>
+        <div class="cc-suffix">Cubic Centimetres</div>
+        <p>Premium large-displacement machines. BMW GS tourers to high-performance superbikes — expert hands, precision results.</p>
+        <div class="cc-ghost-num">2K</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WHY US -->
+<div class="why-section">
+  <div class="why-img reveal left">
+    <img loading="lazy" src="https://images.unsplash.com/photo-1615172282427-9a57ef2d142e?w=800&q=85&auto=format&fit=crop" alt="Motorcycle mechanic at work">
+    <div class="why-img-overlay"></div>
+  </div>
+  <div class="why-content reveal right">
+    <div class="section-label">Why Choose Us</div>
+    <h2 class="section-title">TRUSTED BY<br>LAHORE'S<br>RIDERS</h2>
+    <ul class="why-list">
+      <li class="why-item">
+        <div class="why-icon">🔬</div>
+        <div>
+          <h4>Accurate Diagnostics</h4>
+          <p>We find the real problem — not the symptom. Saves you time, money, and repeat visits.</p>
+        </div>
+      </li>
+      <li class="why-item">
+        <div class="why-icon">🏷</div>
+        <div>
+          <h4>Transparent Pricing</h4>
+          <p>Every repair comes with a clear quote upfront. No hidden charges, ever.</p>
+        </div>
+      </li>
+      <li class="why-item">
+        <div class="why-icon">🛠</div>
+        <div>
+          <h4>Genuine Spare Parts</h4>
+          <p>We use quality OEM and trusted aftermarket parts for lasting repairs.</p>
+        </div>
+      </li>
+      <li class="why-item">
+        <div class="why-icon">â±</div>
+        <div>
+          <h4>Fast Turnaround</h4>
+          <p>Most standard repairs completed same-day. Complex jobs quoted with realistic timelines.</p>
+        </div>
+      </li>
+      <li class="why-item">
+        <div class="why-icon">&#9889;</div>
+        <div>
+          <h4>Specialists, Not Generalists</h4>
+          <p>Repair-only focus means 100% of our expertise goes into fixing your machine perfectly — not selling you parts you don't need.</p>
+        </div>
+      </li>
+      <li class="why-item">
+        <div class="why-icon">💎</div>
+        <div>
+          <h4>Value-Added Repair</h4>
+          <p>Free inspection with every booking, clear aftercare advice, and genuine parts for lasting performance across 125cc to 2000cc bikes.</p>
+        </div>
+      </li>
+      <li class="why-item">
+        <div class="why-icon">📈</div>
+        <div>
+          <h4>Better Than Competitors</h4>
+          <p>Unlike general repair shops, we provide precise diagnostics, transparent quotes, genuine parts, and heavy bike expertise so your repair lasts longer.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="reveal" style="text-align:center;margin-bottom:56px;">
+    <div class="section-label" style="justify-content:center;">Customer Reviews</div>
+    <h2 class="section-title">WHAT RIDERS<br>SAY</h2>
+  </div>
+  <div class="reviews-grid">
+    <div class="review-card reveal">
+      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-text">"Brought my BMW GS in after another shop gave up on it. The Bike Shop diagnosed and fixed the issue in a single day. Absolutely brilliant mechanics — I won't go anywhere else."</p>
+      <div class="review-author">Usman Khalid</div>
+      <div class="review-bike">BMW R1250 GS</div>
+      <div class="review-quote">"</div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-text">"My Honda CD70 was burning oil and losing power. They rebuilt the engine top-end at a very reasonable price. Runs like brand new. Highly recommended for all 70cc owners."</p>
+      <div class="review-author">Ali Raza</div>
+      <div class="review-bike">Honda CD70</div>
+      <div class="review-quote">"</div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <p class="review-text">"Professional team, clean workshop, honest pricing. Had my Suzuki Gixxer fully serviced and the difference in performance was night and day. These guys really know their craft."</p>
+      <div class="review-author">Hamza Tariq</div>
+      <div class="review-bike">Suzuki Gixxer 150</div>
+      <div class="review-quote">"</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-info reveal left">
+    <div class="section-label">Get In Touch</div>
+    <h2 class="section-title">FIND US<br>IN LAHORE</h2>
+
+    <div class="contact-item">
+      <div class="c-icon">📞</div>
+      <div>
+        <div class="c-lbl">Phone</div>
+        <div class="c-val"><a href="tel:0301438839">0301-438839</a></div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <div class="c-icon">📍</div>
+      <div>
+        <div class="c-lbl">Address</div>
+        <div class="c-val">Shop No. 4, Main Awan Town,<br>Multan Road, Lahore</div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <div class="c-icon">🕐</div>
+      <div>
+        <div class="c-lbl">Working Hours</div>
+        <div class="c-val">Mon – Sat: 9:00 AM – 8:00 PM<br>Sunday: 10:00 AM – 5:00 PM</div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <div class="c-icon">&#9881;</div>
+      <div>
+        <div class="c-lbl">Speciality</div>
+        <div class="c-val">All Brands &middot; 70cc to 2000cc<br>BMW &middot; Suzuki &middot; Honda &middot; Yamaha &middot; Kawasaki</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-form reveal right">
+    <div class="form-header">
+      <div class="section-label" style="margin-bottom:10px;">Quick Booking</div>
+      <h3>BOOK A REPAIR</h3>
+      <p class="form-sub">Fill in your details &mdash; we&rsquo;ll confirm via WhatsApp.</p>
+    </div>
+
+    <div class="form-group">
+      <label>Engine Class &mdash; Select Your CC</label>
+      <div class="cc-chips">
+        <button type="button" class="cc-chip" data-cc="70cc">70cc</button>
+        <button type="button" class="cc-chip" data-cc="125cc">125cc</button>
+        <button type="button" class="cc-chip b" data-cc="250cc">250cc</button>
+        <button type="button" class="cc-chip b" data-cc="400cc">400cc</button>
+        <button type="button" class="cc-chip b" data-cc="650cc">650cc</button>
+        <button type="button" class="cc-chip b" data-cc="800cc">800cc</button>
+        <button type="button" class="cc-chip r" data-cc="1000cc">1000cc</button>
+        <button type="button" class="cc-chip r" data-cc="2000cc">2000cc</button>
+      </div>
+      <input type="hidden" id="selectedCC" value="">
+    </div>
+
+    <div class="form-group">
+      <label for="fName">Your Name</label>
+      <input type="text" id="fName" name="name" placeholder="Muhammad Ali">
+    </div>
+    <div class="form-group">
+      <label for="fPhone">Phone Number</label>
+      <input type="tel" id="fPhone" name="phone" placeholder="03XX-XXXXXXX">
+    </div>
+    <div class="form-group">
+      <label for="fBike">Bike Brand &amp; Model</label>
+      <input type="text" id="fBike" name="bike" placeholder="e.g. Honda CD70 / BMW GS 1250">
+    </div>
+    <div class="form-group">
+      <label for="fService">Service Required</label>
+      <select id="fService" name="service">
+        <option value="">&#8212; Select Service &#8212;</option>
+        <option>General Repair / Inspection</option>
+        <option>BMW Specialist Repair</option>
+        <option>Suzuki Repair</option>
+        <option>Honda Repair</option>
+        <option>Yamaha Repair</option>
+        <option>Kawasaki Repair</option>
+        <option>70cc Service &amp; Repair</option>
+        <option>125cc &ndash; 250cc Repair &amp; Tuning</option>
+        <option>250cc &ndash; 800cc Sports Repair</option>
+        <option>Acre 70cc Specialist Service</option>
+        <option>1000cc &ndash; 2000cc Performance Repair</option>
+        <option>Engine Rebuild</option>
+        <option>Electrical / ECU Diagnostics</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="fIssue">Describe the Issue (Optional)</label>
+      <textarea id="fIssue" name="issue" placeholder="What problem are you experiencing? Unusual sounds, power loss, leaks&hellip;"></textarea>
+    </div>
+    <button type="button" class="btn-submit" id="formSubmit">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-right:8px;margin-bottom:2px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 2C6.477 2 2 6.477 2 12c0 1.99.574 3.842 1.565 5.4L2 22l4.743-1.544A9.955 9.955 0 0012 22c5.522 0 10-4.478 10-10S17.522 2 11.999 2zM12 20a8 8 0 01-4.09-1.13l-.29-.174-2.812.915.937-2.742-.19-.307A8 8 0 0112 4a8 8 0 010 16z"/></svg>
+      SEND BOOKING VIA WHATSAPP
+    </button>
+  </div>
+</section>
+<a class="whatsapp-float" href="https://wa.me/92301438839?text=Assalamualaikum%20The%20Bike%20Shop!%20I%20need%20a%20repair%20booking." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Repair Booking">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 2C6.477 2 2 6.477 2 12c0 1.99.574 3.842 1.565 5.4L2 22l4.743-1.544A9.955 9.955 0 0012 22c5.522 0 10-4.478 10-10S17.522 2 11.999 2zM12 20a8 8 0 01-4.09-1.13l-.29-.174-2.812.915.937-2.742-.19-.307A8 8 0 0112 4a8 8 0 010 16z"/></svg>
+  <strong>0301-438839</strong>
+</a>
+
+<!-- BACK TO TOP -->
+<button class="back-top" id="backTop" aria-label="Back to top">
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div class="footer-logo">THE <em>BIKE</em> SHOP</div>
+    <div class="footer-tagline">Repair Specialists &middot; Lahore</div>
+    <p style="font-size:.8rem;color:var(--ash);margin-top:8px;">Shop No. 4, Main Awan Town, Multan Road, Lahore</p>
+    <p style="font-size:.8rem;color:var(--ash);">📞 0301-438839</p>
+  </div>
+  <div class="footer-copy">
+    <div style="font-family:'Bebas Neue';font-size:3rem;color:rgba(240,165,0,.08);letter-spacing:.2em;line-height:1;">BIKE SHOP</div>
+    &copy; 2025 The Bike Shop, Lahore.<br>All rights reserved.
+  </div>
+  <div class="footer-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#brands">Brands</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="footer-bottom">
+    REPAIR SPECIALISTS &middot; ALL BRANDS &middot; ALL MODELS &middot; 70CC TO 2000CC &middot; AWAN TOWN &middot; MULTAN ROAD &middot; LAHORE
+  </div>
+</footer>
+
+<script>
+/* â”€â”€ Cursor â”€â”€ */
+const cur = document.getElementById('cursor');
+const ring = document.getElementById('cursor-ring');
+document.addEventListener('mousemove', e => {
+  cur.style.left  = e.clientX + 'px';
+  cur.style.top   = e.clientY + 'px';
+  ring.style.left = e.clientX + 'px';
+  ring.style.top  = e.clientY + 'px';
+});
+document.querySelectorAll('a, button, .brand-block, .service-card, .gallery-item').forEach(el => {
+  el.addEventListener('mouseenter', () => {
+    cur.style.transform = 'translate(-50%,-50%) scale(2)';
+    ring.style.width = '56px'; ring.style.height = '56px';
+  });
+  el.addEventListener('mouseleave', () => {
+    cur.style.transform = 'translate(-50%,-50%) scale(1)';
+    ring.style.width = '36px'; ring.style.height = '36px';
+  });
+});
+
+/* â”€â”€ Embers â”€â”€ */
+const emberContainer = document.getElementById('embers');
+for (let i = 0; i < 20; i++) {
+  const e = document.createElement('div');
+  e.className = 'ember';
+  e.style.left = Math.random() * 60 + '%';
+  e.style.width = e.style.height = (Math.random() * 3 + 1.5) + 'px';
+  const dur = (Math.random() * 5 + 4);
+  e.style.animationDuration = dur + 's';
+  e.style.animationDelay = (Math.random() * 6) + 's';
+  if (Math.random() > .5) e.style.background = '#ff4500';
+  emberContainer.appendChild(e);
+}
+
+/* â”€â”€ Speed streaks â”€â”€ */
+const streakContainer = document.getElementById('streaks');
+const streakData = [
+  {top:'18%', width:'75%', delay:'0s'},
+  {top:'31%', width:'55%', delay:'.4s'},
+  {top:'44%', width:'85%', delay:'.8s'},
+  {top:'58%', width:'65%', delay:'1.2s'},
+  {top:'72%', width:'45%', delay:'1.6s'},
+  {top:'85%', width:'70%', delay:'2s'},
+];
+streakData.forEach(d => {
+  const s = document.createElement('span');
+  s.className = 'streak';
+  s.style.cssText = `top:${d.top};width:${d.width};animation-duration:${(Math.random()*1.5+2).toFixed(1)}s;animation-delay:${d.delay};`;
+  streakContainer.appendChild(s);
+});
+
+/* â”€â”€ Scroll reveal â”€â”€ */
+const reveals = document.querySelectorAll('.reveal');
+const revObs = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('visible'), 0);
+      revObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1 });
+reveals.forEach(r => revObs.observe(r));
+
+/* Stagger siblings */
+document.querySelectorAll('.services-grid, .process-grid, .about-stats, .cc-grid, .reviews-grid').forEach(grid => {
+  grid.querySelectorAll('.reveal').forEach((c, i) => {
+    c.style.transitionDelay = `${i * 0.1}s`;
+  });
+});
+
+/* â”€â”€ Hero typing effect â”€â”€ */
+const typeText = document.querySelector('.typewriter-text');
+if (typeText) {
+  const typePhrases = ['General Repair for Every Bike', 'Heavy Bikes and Tourers', '125cc to 2000cc Experts', 'Value Repair with Genuine Parts'];
+  let currentPhrase = 0;
+  let currentChar = 0;
+  let deleting = false;
+  const typeSpeed = 90;
+  const pauseDelay = 1400;
+
+  const typeLoop = () => {
+    const phrase = typePhrases[currentPhrase];
+    typeText.textContent = phrase.slice(0, currentChar);
+    if (!deleting && currentChar < phrase.length) {
+      currentChar++;
+      setTimeout(typeLoop, typeSpeed);
+    } else if (deleting && currentChar > 0) {
+      currentChar--;
+      setTimeout(typeLoop, typeSpeed / 2);
+    } else {
+      deleting = !deleting;
+      if (!deleting) currentPhrase = (currentPhrase + 1) % typePhrases.length;
+      setTimeout(typeLoop, pauseDelay);
+    }
+  };
+  setTimeout(typeLoop, 600);
+}
+
+/* â”€â”€ Navbar shrink on scroll â”€â”€ */
+const nav = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 80) {
+    nav.style.padding = '12px 56px';
+    nav.style.borderBottomColor = 'rgba(240,165,0,.2)';
+  } else {
+    nav.style.padding = '20px 56px';
+    nav.style.borderBottomColor = 'rgba(240,165,0,.12)';
+  }
+});
+
+/* â”€â”€ CC number counter animation â”€â”€ */
+const ccObs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const numEl = e.target.querySelector('.cc-num');
+      const target = parseInt(numEl.textContent);
+      if (isNaN(target)) return;
+      let start = 0;
+      const dur = 1200;
+      const step = (ts) => {
+        if (!start) start = ts;
+        const pct = Math.min((ts - start) / dur, 1);
+        numEl.textContent = Math.floor(pct * target);
+        if (pct < 1) requestAnimationFrame(step);
+        else numEl.textContent = target;
+      };
+      requestAnimationFrame(step);
+      ccObs.unobserve(e.target);
+    }
+  });
+}, { threshold: .3 });
+document.querySelectorAll('.cc-card').forEach(c => ccObs.observe(c));
+
+/* â”€â”€ Hamburger menu â”€â”€ */
+const hamburger = document.getElementById('hamburger');
+const mobileNav = document.getElementById('mobileNav');
+if (hamburger) {
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    mobileNav.classList.toggle('open');
+    document.body.style.overflow = mobileNav.classList.contains('open') ? 'hidden' : '';
+  });
+  mobileNav.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      mobileNav.classList.remove('open');
+      document.body.style.overflow = '';
+    });
+  });
+}
+
+/* â”€â”€ Back to top â”€â”€ */
+const backTop = document.getElementById('backTop');
+if (backTop) {
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 600) backTop.classList.add('visible');
+    else backTop.classList.remove('visible');
+  });
+  backTop.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+}
+
+/* â”€â”€ CC Chips â”€â”€ */
+document.querySelectorAll('.cc-chip').forEach(chip => {
+  chip.addEventListener('click', function() {
+    const siblings = this.closest('.cc-chips').querySelectorAll('.cc-chip');
+    siblings.forEach(c => c.classList.remove('active'));
+    this.classList.add('active');
+    document.getElementById('selectedCC').value = this.dataset.cc;
+  });
+});
+
+/* â”€â”€ Form → WhatsApp â”€â”€ */
+const formSubmit = document.getElementById('formSubmit');
+if (formSubmit) {
+  formSubmit.addEventListener('click', () => {
+    const name    = document.getElementById('fName')?.value.trim();
+    const phone   = document.getElementById('fPhone')?.value.trim();
+    const bike    = document.getElementById('fBike')?.value.trim();
+    const service = document.getElementById('fService')?.value;
+    const issue   = document.getElementById('fIssue')?.value.trim();
+    const cc      = document.getElementById('selectedCC')?.value;
+    if (!name || !phone) {
+      alert('Please enter your name and phone number.');
+      return;
+    }
+    let msg = `Assalamualaikum The Bike Shop!\n\n*Name:* ${name}\n*Phone:* ${phone}`;
+    if (cc)      msg += `\n*Engine CC:* ${cc}`;
+    if (bike)    msg += `\n*Bike:* ${bike}`;
+    if (service) msg += `\n*Service:* ${service}`;
+    if (issue)   msg += `\n*Issue:* ${issue}`;
+    window.open('https://wa.me/92301438839?text=' + encodeURIComponent(msg), '_blank');
+  });
+}
+
+/* â”€â”€ Stat counter â”€â”€ */
+const statObs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const numEl = e.target.querySelector('.num');
+      const raw = numEl.textContent.trim();
+      const numMatch = raw.match(/[\d]+/);
+      if (!numMatch) return;
+      const target = parseInt(numMatch[0]);
+      const suffix = raw.replace(/[\d]+/, '');
+      let start = 0;
+      const dur = 1400;
+      const step = (ts) => {
+        if (!start) start = ts;
+        const pct = Math.min((ts - start) / dur, 1);
+        numEl.textContent = Math.floor(pct * target) + suffix;
+        if (pct < 1) requestAnimationFrame(step);
+        else numEl.textContent = target + suffix;
+      };
+      requestAnimationFrame(step);
+      statObs.unobserve(e.target);
+    }
+  });
+}, { threshold: .5 });
+document.querySelectorAll('.stat-box').forEach(s => statObs.observe(s));
+</script>
+</body>
+</html>
+
